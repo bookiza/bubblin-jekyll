@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "bubblin-jekyll"
-  spec.version       = "2.1.1"
+  spec.version       = "1.0.0"
   spec.authors       = ["Marvin Danig"]
   spec.email         = ["marvin@marvindanig.com"]
 
-  spec.summary       = %q{The official theme for Bubblin Superbooks.}
-  spec.homepage      = ""
+  spec.summary       = %q{The official theme for blog at Bubblin Superbooks.}
+  spec.homepage      = "https://github.com/marvindanig/bubblin-jekyll.git"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
