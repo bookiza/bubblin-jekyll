@@ -1,46 +1,40 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
+<footer class="legend proxima double-top-gap pad-vertically">
+    <div class="flex">
+        <menu class="horizontal-list foot-menu">
+            <li>
+                <a rel="About us" href="https://bubblin.io/about">About</a>
             </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+            <li>
+                <a rel="Frequently Asked Questions" href="https://bubblin.io/faq">FAQs</a>
+            </li>
+            <li class="hide-on-mobiles">
+                <a rel="Writers" href="https://bubblin.io/writers">Writers</a>
+            </li>
+            <li class="hide-on-mobiles">
+                <a rel="Documentation" href="https://bubblin.io/documentation">Documentation</a>
+            </li>
+            <li class="hide-on-mobiles">
+                <a href="{{ '/' | relative_url }}" rel="Official blog">Blog</a>
+            </li>
+            <li>
+                <a rel="Privacy Policy" href="/policy">Policy</a>
+            </li>
+            <li>
+                <a rel="Terms of Service" href="/terms">Terms</a>
+            </li>
+        </menu>
+        <span class="side-gap">
+          <h6 class="small">
+          © 2017+ Bubblin Superbooks Inc.
+          </h6>
+        </span>
     </div>
-
-  </div>
-
+    <div class="one-half center small flex double-top-gap">
+        <span class="lobster faded-text">
+          Made with
+          <i class="heart"></i>
+          in the
+        </span>
+        <div class="usa side-gap"></div>
+    </div>
 </footer>
