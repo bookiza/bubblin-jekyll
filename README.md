@@ -1,8 +1,13 @@
 # bubblin-jekyll
 
-The *Bubblin-Jekyll* is the Jekyll theme in use at the Bubblin [blog](https://bubblin.io/blog/).
+The `Bubblin-Jekyll` is the Jekyll theme in use at [The Bubblin Blog](https://bubblin.io/blog/). It is a particularly useful theme for situations where you want to add a blog to your site, say on the side of your rails app (website) or over a url like this:
 
-It's a fork off of [Minima](https://github.com/jekyll/minima)—the default theme gem of Jekyll.
+> https://example.com/blog/
+
+
+`Bubblin-Jekyll` was originally a fork off of [Minima](https://github.com/jekyll/minima)—the default gem-theme of Jekyll-but it has been rewritten completely using the [Toucaan CSS](https://github.com/marvindanig/toucaan) fundamentals for its themed layout.
+
+A tutorial on how to setup a jekyll blog using the `bubblin-jekyll` theme alongside your rails app is available [here](https://bubblin.io/blog/).
 
 [Theme preview](https://jekyll.github.io/bubblin-jekyll/)
 
