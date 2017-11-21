@@ -13,6 +13,10 @@
 
     {% include footer.html %}
 
+    {% if site.search %}
+      {% include search.html %}
+    {% endif %}
+
 </body>
 
 </html>

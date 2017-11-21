@@ -25,6 +25,8 @@ And add this line to your Jekyll site:
 
 ```yaml
 theme: bubblin-jekyll
+
+search: true
 ```
 
 And then execute:
