@@ -24,6 +24,7 @@ html {
 
 body {
     color: rgba(0, 0, 0, 0.85);
+    background: aliceblue;
     margin: 0;
     font-family: 'EB Garamond', serif;
     font-smooth: always;
@@ -34,6 +35,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-osx-font-smoothing: antialiased;
 }
+
 
 /* Anchors */
 
@@ -202,23 +204,23 @@ input:-webkit-autofill {
 }
 
 ::-webkit-input-placeholder {
-    color: #555;
-    font-size: 15px;
+    color: #05f !important;
+    font-size: 13px;
 }
 
 :-moz-placeholder {
-    color: #555;
-    font-size: 15px;
+    color: #05f;
+    font-size: 13px;
 }
 
 ::-moz-placeholder {
-    color: #555;
-    font-size: 14px;
+    color: #05f;
+    font-size: 13px;
 }
 
 :-ms-input-placeholder {
-    color: #555;
-    font-size: 14px;
+    color: #05f;
+    font-size: 13px;
 }
 
 table {
@@ -236,7 +238,12 @@ th {
 /* Element Positioning */
 
 .container {
-    margin-top: 90px;
+    margin: 44px 0 0 0;
+    background: white;
+}
+
+.wrapper {
+    margin: 0 auto;
 }
 
 .left {
@@ -456,9 +463,7 @@ ul.horizontal-list li {
             margin: 0 auto;
             text-align: center;
         }
-        .wrapper {
-            width: 90vw;
-        }
+
     }
 }
 
@@ -488,8 +493,9 @@ ul.horizontal-list li {
         .align {
             margin: 0 0;
         }
-        .wrapper {
-            width: 60vw;
+        .container {
+            width: calc(100vw - 208px);
+            margin-left: 208px;
         }
     }
 }
