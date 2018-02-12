@@ -24,7 +24,6 @@ html {
 
 body {
     color: rgba(0, 0, 0, 0.85);
-    background: aliceblue;
     margin: 0;
     font-family: 'EB Garamond', serif;
     font-smooth: always;
@@ -35,7 +34,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-osx-font-smoothing: antialiased;
 }
-
 
 /* Anchors */
 
@@ -238,12 +236,7 @@ th {
 /* Element Positioning */
 
 .container {
-    margin: 44px 0 0 0;
-    background: white;
-}
-
-.wrapper {
-    margin: 0 auto;
+    margin-top: 90px;
 }
 
 .left {
@@ -463,7 +456,9 @@ ul.horizontal-list li {
             margin: 0 auto;
             text-align: center;
         }
-
+        .wrapper {
+            width: 90vw;
+        }
     }
 }
 
@@ -493,9 +488,8 @@ ul.horizontal-list li {
         .align {
             margin: 0 0;
         }
-        .container {
-            width: calc(100vw - 208px);
-            margin-left: 208px;
+        .wrapper {
+            width: 60vw;
         }
     }
 }
