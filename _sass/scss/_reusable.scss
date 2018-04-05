@@ -59,7 +59,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'proxima-nova', Arial, sans-serif;
+    font-family: monospace;
 }
 
 h1 {
@@ -202,22 +202,22 @@ input:-webkit-autofill {
 }
 
 ::-webkit-input-placeholder {
-    color: #05f !important;
-    font-size: 13px;
+    color: #444 !important;
+    font-size: 11px;
 }
 
 :-moz-placeholder {
-    color: #05f;
+	color: #444 !important;
     font-size: 13px;
 }
 
 ::-moz-placeholder {
-    color: #05f;
+  	color: #444 !important;
     font-size: 13px;
 }
 
 :-ms-input-placeholder {
-    color: #05f;
+    color: #444 !important;
     font-size: 13px;
 }
 
@@ -241,7 +241,6 @@ th {
 
 .wrapper {
     margin: 0 auto;
-    text-align: justify;
 }
 
 .left {
