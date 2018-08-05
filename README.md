@@ -139,6 +139,20 @@ To enable Google Anaytics, add the following lines to your Jekyll site:
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
+
+--
+
+### Enabling Heap Analytics
+
+To enable Heap Anaytics, add the following lines to your Jekyll site:
+
+```yaml
+  heap_analytics: NN-NNNNNNNNN
+```
+
+Heap will appear only in production, i.e., with `JEKYLL_ENV=production`
+
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at . This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
