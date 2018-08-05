@@ -16,14 +16,14 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.6;
     text-rendering: optimizelegibility;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
 }
 
 body {
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.95);
     margin: 0;
     font-family: 'EB Garamond', serif;
     font-smooth: always;
@@ -136,9 +136,9 @@ img {
 
 pre,
 code {
-    border: 1px solid #e8e8e8;
+    border: 1px solid paleturquoise;
     border-radius: 3px;
-    background-color: #eff;
+    background-color: aliceblue;
 }
 
 code {
@@ -163,9 +163,6 @@ blockquote {
     margin: 2em auto;
     font-style: italic;
     background: #fffafa;
-    > :last-child {
-        margin-bottom: 0;
-    }
 }
 
 

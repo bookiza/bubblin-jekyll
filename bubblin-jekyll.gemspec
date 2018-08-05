@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "bubblin-jekyll"
-  spec.version       = "1.2.1"
+  spec.version       = "1.2.2"
   spec.authors       = ["Marvin Danig"]
   spec.email         = ["marvin@marvindanig.com"]
 
