@@ -25,7 +25,7 @@ html {
 body {
     color: rgba(0, 0, 0, 0.95);
     margin: 0;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Assistant', sans-serif;
     font-smooth: always;
     -webkit-font-smoothing: subpixel-antialiased;
     text-rendering: optimizelegibility;
@@ -59,17 +59,14 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: monospace;
 }
 
 h1 {
     font-size: 280%;
-    font-weight: normal;
 }
 
 h2 {
     font-size: 200%;
-    font-weight: normal;
 }
 
 h3 {
@@ -134,16 +131,11 @@ img {
 
 /* Code formatting */
 
-pre,
-code {
-    border: 1px solid paleturquoise;
-    border-radius: 3px;
-    background-color: aliceblue;
-}
 
 code {
     padding: 1px 5px;
 }
+
 
 pre {
     padding: 8px 12px;
